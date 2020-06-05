@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.98" systemVersion="19F96" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AddCart" representedClassName="AddCart" syncable="YES">
+        <relationship name="cartMeal" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MealKit" syncable="YES"/>
+        <relationship name="cartUser" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="MealKit" representedClassName="MealKit" syncable="YES">
+        <attribute name="mealCalorie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mealDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mealName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mealPhoto" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mealPrice" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="mealSku" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Receipt" representedClassName="Receipt" syncable="YES">
+        <attribute name="orderid" optional="YES" attributeType="Integer 32" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="subTotal" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="tax" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="tip" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="total" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="reciptMeal" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MealKit" syncable="YES"/>
+        <relationship name="userDetails" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="photo" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="userEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userPassword" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userPhoneNo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AddCart" positionX="-63" positionY="36" width="128" height="75"/>
+        <element name="MealKit" positionX="-63" positionY="9" width="128" height="135"/>
+        <element name="Receipt" positionX="-54" positionY="36" width="128" height="150"/>
+        <element name="User" positionX="-63" positionY="-18" width="128" height="105"/>
+    </elements>
+</model>

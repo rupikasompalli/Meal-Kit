@@ -1,0 +1,53 @@
+[
+    {
+        "name":"Broccoli Cheddar Soup",
+        "description":"Re-energize with this mouthwatering,nutrient-packed dish.Which is will serve for 7 days for single person.",
+        "price":50.00,
+        "photo":"broccoli",
+        "calorie":"150"
+    },
+    {
+        "name":"Butter chicken",
+        "description":"Indian Butter Chicken (Murgh Makhani) Authentic in house made sauce of butter, spices, tomato and ginger garlic mix with pieces of chicken breast to produce the most popular dish in the world, served with naan bread & basmati rice.Which is will serve for 7 days for single person.",
+        "price":84.00,
+        "photo":"butterChicken",
+        "calorie":"150"
+    },
+    {
+        "name":"Roast Cauliflower Mac&Cheese",
+        "description":"Cauliflower mac and cheese is essentially cooked cauliflower with rich cheese sauce. Roasted cauliflower makes a great stand-in for macaroni – hence the name. It makes delicious as a keto side dish or vegetarian keto main dish.Which is will serve for 7 days for single person.",
+        "price":70.00,
+        "photo":"cauliflower",
+        "calorie":"250"
+    },
+    {
+        "name":"Chicken Biryani",
+        "description":"A Rich and Flavorful Layered Indian Dish Long-grained rice (like basmati) flavored with exotic spices, such as saffron, is layered with lamb, chicken, fish, or vegetables, and a thick gravy. The dish is then covered, its lid secured with dough, and then the biryani is cooked over a low flame.Which is will serve for 7 days for single person.",
+        "price":120.00,
+        "photo":"biriyani",
+        "calorie":"250"
+    },
+    {
+        "name":"Red Lentil and Chickpea Wrap",
+        "description":"Flour Tortilla,Red Lentils,Chickpeas,Maple Syrup,Herbs,Spice,Sweet Potato,Mixed Seasonal Vegetable.Which is will serve for 7 days for single person.",
+        "price":120.00,
+        "photo":"butterChicken",
+        "calorie":"250"
+    },
+    {
+        "name":"Coconut curry Salmon",
+        "description":"Baked Salmon Fillet, and our cumin coconut curry sauce, served with keto friendly vegetables.Which is will serve for 7 days for single person.",
+        "price":110.00,
+        "photo":"coconut",
+        "calorie":"170"
+    },
+    {
+        "name":"Honey garlic Chicken",
+        "description":"Baked Honey Garlic Chicken with Broccoli.This baked honey garlic chicken is your new favorite dinner!.Which is will serve for 7 days for single person.",
+        "price":135.00,
+        "photo":"honeygarlic",
+        "calorie":"170"
+    }
+    
+]
+ 
